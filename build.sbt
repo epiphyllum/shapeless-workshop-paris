@@ -9,3 +9,5 @@ libraryDependencies ++= Seq(
   "com.chuusai"    %% "shapeless"   % "2.0.0-M1" cross CrossVersion.full
   //"com.chuusai"    %% "shapeless"   % "1.2.4"
 )
+
+initialCommands in console := """import shapeless._, poly._, scalaio._"""
